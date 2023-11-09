@@ -29,17 +29,23 @@ xix.[データベース][Level2] エンティティを定義できる
 ⑤Prices(値段)
 
 ↓
-①Users (ユーザー)
-    ①-1.UserID (ユーザーID)
-    ①-2.UserName (ユーザー名)
-    ①-3.Purchases (購入履歴)
 
-②PurchaseID (購入ID)
-    ②-1.UserID (ユーザーID)
-    ②-2.PurchaseDate (購入日付)
-    ②-3.Products (商品)
 
-③ProductID (商品ID)
-    ③-1.ProductName (商品名)
-    ③-2.Category (カテゴリー)
-    ③-3.Price (値段)
+1.ユーザー (Users)
+ユーザーID (UserID)
+ユーザー名 (UserName)
+
+2.購入履歴 (Purchases)
+購入ID (PurchaseID)
+ユーザーID (UserID)
+購入日付 (PurchaseDate)
+
+3.商品 (Products)
+商品ID (ProductID)
+商品名 (ProductName)
+カテゴリー (Category)
+値段 (Price)
+
+4.カテゴリー (Categories)
+カテゴリーID (CategoryID)
+カテゴリー名 (CategoryName)
